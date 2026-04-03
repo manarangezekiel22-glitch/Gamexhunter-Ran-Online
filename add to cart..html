@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add to Cart UI</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .card {
+        background: #000000;
+        color: #ffffff;
+        width: 300px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 16px;
+    }
+
+    .product-title {
+        font-size: 18px;
+        margin: 0 0 8px;
+    }
+
+    .price {
+        color: #87CEEB; /* sky blue */
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #87CEEB; /* sky blue */
+        color: #000000;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #5bbde6;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Product Image">
+    
+    <div class="card-content">
+        <h2 class="product-title">Cool Sneakers</h2>
+        <p class="price">$49.99</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+</div>
+
+</body>
+</html>

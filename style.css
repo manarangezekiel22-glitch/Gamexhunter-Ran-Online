@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* This creates the dark tech background feel */
+    background: radial-gradient(circle at center, #001f3f 0%, #000 100%);
+    color: white;
+}
+body {
+    /* Replace with your image URL or local file path */
+    background-image: url('mylogo.png'); 
+    
+    /* Ensures the image covers the entire screen */
+    background-size: cover; 
+    
+    /* Centers the image both vertically and horizontally */
+    background-position: center; 
+    
+    /* Prevents the image from tiling/repeating */
+    background-repeat: no-repeat; 
+    
+    /* Keeps the background fixed so it doesn't scroll with content */
+    background-attachment: fixed; 
+}
+
+.login-form {
+    background: rgba(18, 18, 18, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    border: 2px solid #00d4ff;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #eee;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #00d4ff;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot-pass {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #00d4ff;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.checkbox-container {
+    display: flex;         /* Align items in a row */
+    align-items: center;   /* Vertically center the box with text */
+    gap: 2px;              /* Space between box and text */
+  }
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #00d4ff;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
+}
+
+.login-btn:hover {
+    background: #00b8e6;
+    transform: scale(1.02);
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.signup-text a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: bold;
+}

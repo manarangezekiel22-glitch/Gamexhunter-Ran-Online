@@ -1,0 +1,192 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #041c24;
+      color: #fff;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: rgba(0,0,0,0.6);
+      border-bottom: 1px solid #00eaff;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00eaff;
+    }
+
+    .nav-links a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+      float : right;
+    }
+
+    .nav-links a:hover {
+      color: #00eaff;
+    }
+
+    
+     .cart-container { /* style for cart */
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7.5px rgba(0, 255, 255, 0.2);
+    
+  }
+  .nav-container {
+  width: 100%;
+  text-align: right;
+}
+
+  svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .cart-line {
+    stroke: #00eaff;
+    stroke-width: 2.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    filter: drop-shadow(0 0 6px #00eaff);
+  }
+
+  .wheel {
+    fill: #00eaff;
+    filter: drop-shadow(0 0 6px #00eaff);
+  }
+
+  /* Hover Glow Animation */
+  .cart-container:hover {
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+  /* code to float right the home */
+  .navbar {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    padding: 10px 20px;
+    background-color: #000; /* Matching your black background */
+}
+
+.logo {
+    color: #00e5ff; /* Your cyan color */
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Space between the links */
+    margin-left: auto; /* THIS moves the links to the right */
+    margin-right: 20px; /* This adds a gap between the links and the cart */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cart-container {
+    /* Your cart styling here */
+}
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      color: #00eaff;
+      text-shadow: 0 0 10px #00eaff;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      color: #aaa;
+    }
+
+    /* Product Grid */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 50px;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.7);
+      border: 1px solid #00eaff;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 0 10px rgba(0,234,255,0.2);
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px #00eaff;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 15px 0;
+    }
+
+    .price {
+      color: #00eaff;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      background: #00eaff;
+      color: #000;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00bcd4;
+      box-shadow: 0 0 10px #00eaff;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #00eaff;
+      margin-top: 40px;
+      color: #aaa;
+    }
+ 
